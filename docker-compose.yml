@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  falconvault:
+    build: .
+    container_name: falconvault_service
+    ports:
+      - "8080:80"
+    restart: always
+    environment:
+      - NODE_ENV=production
+    networks:
+      - falcon_network
+
+networks:
+  falcon_network:
+    driver: bridge

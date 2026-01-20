@@ -1,0 +1,5 @@
+{
+  "name": "FalconVault",
+  "description": "A centralized, avian-themed multi-wallet signing service. Securely encrypts keys and provides monitoring and API simulation.",
+  "requestFramePermissions": []
+}
